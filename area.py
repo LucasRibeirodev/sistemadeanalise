@@ -19,7 +19,7 @@ for mes in lista_meses:
         print(f'No mês de {mes} o Vendedor {vendedor} atingiu a meta com o valor de {vendas}')
         client = Client(account_sid, auth_token)
         message = client.messages.create(
-            to="+5541998239095",
+            to="insert number",
             from_="+19897472553",
             body=f'No mês de {mes} o Vendedor {vendedor} atingiu a meta com o valor de {vendas}')
 
